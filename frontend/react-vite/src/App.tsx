@@ -1,8 +1,15 @@
+import Notification from "./components/Notification"
+
 function App() {
 
   return (
-    <h1>Hello word!</h1>
-  )
+      <>
+      <body>
+        <h1>Hello word!</h1>
+        <Notification></Notification>
+      </body>
+      </>
+    )
 }
 
 export default App
